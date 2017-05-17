@@ -1,0 +1,22 @@
+main: com.capri.core.Core
+name: CoreStaff
+author: Capri
+description: A player management plugin
+version: 1.0
+
+permissions:
+
+    staff.freeze:
+        description: Allows the usage of /freeze
+    staff.staffmode:
+        description: Allows the usage of /staff
+    staff.join:
+        description: Adds user to the list of staff online and announces their arrival to the server
+    staff.supressmsg:
+        description: User will not be announced to other staff members that they are online
+
+commands:
+    freeze:
+        description: Freezes player
+    staff:
+        description: a cool message
